@@ -1,0 +1,23 @@
+Would you like to receive product updates and announcements via email?
+Type "y" for yes or "n" for nojava.lang.Exception: java.lang.ExceptionInInitializerError
+  at l.ۡۗ۟.ۖ(G4WL:86)
+  at l.۬ۗ۟.run(Unknown Source:2)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1137)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:637)
+  at java.lang.Thread.run(Thread.java:1012)
+Caused by: java.lang.ExceptionInInitializerError
+  at l.۠۠ۦ.ۚ(S1QA:163)
+  at l.۠ۦۘ.<init>(65XR:171)
+  at l.۠ۦۘ.<init>(65XR:73)
+  at l.ۜۢۢ.ۛ(I4G2:35)
+  at l.ۧۢۤ.ۚۛ(U1ZZ:168)
+  at l.ۧۢۤ.<init>(U1ZZ:109)
+  at l.۠ۡۖ.ۛ(55ZN:250)
+  at l.ۘ۟ۖ.ۛ(Unknown Source:2)
+  at l.ۚ۠ۖ.ۤ(P269:292)
+  at l.ۡۗ۟.ۖ(G4WL:78)
+  ... 4 more
+Caused by: java.nio.charset.UnsupportedCharsetException: ISO2022CN
+  at java.nio.charset.Charset.forName(Charset.java:566)
+  at l.۠۠ۦ.<clinit>(S1QA:58)
+  ... 14 more
